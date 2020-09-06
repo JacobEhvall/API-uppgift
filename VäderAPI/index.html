@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+<!-- <h1>Kolla vädertemperatur</h1>
+<p id="timeParagraph"></p>
+<p id="tempParagraph"></p>
+<p id="city"></p>
+<p id="coordinate"></p>  -->
+
+<section class="container">
+    <table class="table" style="color: rgb(0, 0, 0);">
+        <thead>
+            <tr>
+              <p style="font-size:40px">Data för Norrköping</p>
+              <div><b>Aktulellt datum</b></div>
+              <p scope="col" id="timeParagraph"></p>
+              <div><b>Aktulell temeratur</b></div>
+              <p scope="col" id="tempParagraph"></p>
+              <div><b>Aktulell stad</b></div>
+              <p scope="col" id="city"></p>
+              <div><b>Stadens koordinater</b></div>
+              <p scope="col" id="coordinate"></p> 
+            </tr>
+          </thead>
+          <tbody id="ratesTableBody"></tbody>
+    </table>
+</section>
+
+ <script src="väder.js"></script>
+
+
+</body>
+</html>
